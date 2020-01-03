@@ -18,7 +18,7 @@ anybody uses this plugin besides me, I could be talked into a settings page.
 Install via the bundled [Plugin Manager](https://github.com/foosel/OctoPrint/wiki/Plugin:-Plugin-Manager)
 or manually using this URL:
 
-    https://github.com/markwal/OctoPrint-PortLister/archive/master.zip
+    https://github.com/mikekscholz/OctoPrint-PortLister/archive/master.zip
 
 ## Configuration
 
