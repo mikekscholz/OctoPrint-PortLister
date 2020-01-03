@@ -77,7 +77,7 @@ class PortListerPlugin(octoprint.plugin.StartupPlugin, octoprint.plugin.AssetPlu
 			self._logger.error("Exception in do_auto_connect %s", get_exception_string())
 
 	def get_settings_defaults(self, *args, **kwargs):
-		return dict(autoconnect_delay=20)
+		return dict(autoconnect_delay=0)
 
 	def get_assets(self, *args, **kwargs):
 		return dict(js=["js/portlister.js"])
@@ -90,12 +90,12 @@ class PortListerPlugin(octoprint.plugin.StartupPlugin, octoprint.plugin.AssetPlu
 
 				# use github release method of version check
 				type="github_release",
-				user="markwal",
+				user="mikekscholz",
 				repo="OctoPrint-PortLister",
 				current=self._plugin_version,
 
 				# update method: pip
-				pip="https://github.com/markwal/OctoPrint-PortLister/archive/{target_version}.zip"
+				pip="https://github.com/mikekscholz/OctoPrint-PortLister/archive/{target_version}.zip"
 			)
 		)
 

@@ -5,11 +5,11 @@
 plugin_identifier = "portlister"
 plugin_package = "octoprint_portlister"
 plugin_name = "OctoPrint-PortLister"
-plugin_version = "0.1.8"
+plugin_version = "0.1.9"
 plugin_description = """PortLister notices when printers get turned on and tells the list of ports to refresh"""
-plugin_author = "Mark Walker"
-plugin_author_email = "markwal@hotmail.com"
-plugin_url = "https://github.com/markwal/OctoPrint-PortLister"
+plugin_author = "mikekscholz"
+plugin_author_email = "mikekscholz@gmail.com"
+plugin_url = "https://github.com/mikekscholz/OctoPrint-PortLister"
 plugin_license = "AGPLv3"
 
 # Any additional requirements besides OctoPrint should be listed here
