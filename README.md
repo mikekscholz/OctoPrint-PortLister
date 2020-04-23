@@ -40,7 +40,7 @@ computer.
 
 ## Configuration
 
-~~In ~/.octoprint/config.yaml, the autoconnect_delay can be configured to
+~~In .octoprint/config.yaml, the autoconnect_delay can be configured to
 something other than the default 20 seconds it takes my printer to boot up.~~
 ```
 plugins:
